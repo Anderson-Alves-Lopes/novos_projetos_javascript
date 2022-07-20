@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>App Lista de Supermercado</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h2>Lista de Supermercado</h2>
+    </header>
+    <div class="container">
+    <div class="lista-cadastro">
+     <input type="text" placeholder="nome do produto..." name="nome_produto"/>
+     <input type="number" placeholder="valor do produto..." name="price" step="0.01" title="This should be a number with up to decimal"/>
+    <input type="submit" name="acao" value="Cadastrar"/>
+    </div><!--lista-->
+    <div class="lista-produto">
+         
+    </div><!--lista-produto-->
+    <div class="soma-produtos">
+      <h1>Total: R$0 </h1>
+    </div><!--soma-produtos-->
+    <div class="button">
+      <button name="limparUm">Retirar item</button>
+      <button name="limpar">Limpar</button>
+      
+   </div>
+   </div><!--container-->
+   
+   
+    <script src="script.js"></script>
+</body>
+</html>

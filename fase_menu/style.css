@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.menuOpen{
+    width:200px !important;
+    transition:all 1s;
+}
+.menu{
+    background-color:#ccc;
+    width:0;
+    height:100vh;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all 1s;
+
+}
+ul.menu li{
+  display: block;  
+  font-size:20px;
+  padding:10px;
+  cursor:pointer;
+}
